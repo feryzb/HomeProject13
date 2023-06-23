@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Orbitron", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.First-Hero {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(87, 184, 252, 1) 50%
+  );
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 32px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.header-nav ul a {
+  color: #fff;
+}
+.header-nav ul a:hover {
+  color: #fac422;
+}
+
+.head-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.head-btn button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.head-btn a {
+  padding: 13px 31px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+
+.head-btn a:hover {
+  background-color: #000000;
+}
+
+.Second-Head {
+  padding-bottom: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Header-Text {
+  padding-top: 200px;
+}
+
+.Hero-Image {
+  padding-top: 200px;
+}
+
+.Header-Text a {
+  padding: 13px 31px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.Header-Text a:hover {
+  background-color: #57b8ff;
+}
+.Header-Text span {
+  color: #57b8ff;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+.Header-Text h1 {
+  font-weight: 400;
+  font-size: 72px;
+  color: #ffffff;
+  margin-bottom: 45px;
+}
+
+.Header-Text p {
+  color: #999999;
+  margin-bottom: 72px;
+}
+
+.Second-Hero {
+  background-image: url(/images/IMAGEbackgroun2Section.svg);
+}
+
+.Second-Hero-sec {
+  text-align: center;
+  padding-top: 136px;
+}
+
+.Second-Hero-sec span {
+  color: #57b8ff;
+  font-size: 16px;
+  margin-bottom: 22px;
+  display: inline-block;
+}
+
+.Second-Hero-sec h2 {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 74px;
+  color: #fff;
+  margin-bottom: 28px;
+}
+
+.Second-Hero-sec p {
+  font-size: 20px;
+  color: #999999;
+}
+
+.card {
+  background-image: url(/images/IMAGEbackgroun2Section.svg);
+  padding: 32px 46px;
+  width: 642.46px;
+  background-color: rgba(255, 255, 255, 1) #ffff;
+  margin-bottom: 32px;
+  border-radius: 20px;
+}
+
+.card span {
+  color: #dad8d8;
+  font-size: 32px;
+  display: inline-block;
+}
+
+.card p {
+  font-size: 18px;
+  color: #999999;
+}
+
+.MainCard {
+  padding-top: 60px;
+  padding-bottom: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ThirdHero {
+  background-color: #000000;
+}
+
+.Section-3 {
+  padding-top: 130px;
+  padding-bottom: 145px;
+}
+
+.Section-3 span {
+  color: #57b8ff;
+  font-size: 16px;
+  margin-bottom: 24px;
+  padding-bottom: 22px;
+  display: inline-block;
+}
+.Section-3 h2 {
+  font-size: 64px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.Section-3 p {
+  padding-top: 38px;
+  color: rgba(223, 223, 223, 0.8);
+  font-size: 20px;
+  padding-bottom: 55px;
+}
+
+.Section-3 a {
+  padding: 13px 31px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.Section-3 a:hover {
+  background-color: #57b8ff;
+}
